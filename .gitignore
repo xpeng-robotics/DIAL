@@ -38,6 +38,7 @@ checkpoints/
 wandb/
 runs/
 tensorboard/
+MUJOCO_LOG.TXT
 
 # Data (too large for git)
 data/
