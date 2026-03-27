@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training outputs
+outputs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Logs
+*.log
+wandb/
+runs/
+tensorboard/
+
+# Data (too large for git)
+data/
+datasets/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local machine-specific files
+*local*
+
+# Convert checkpoint
+convert_checkpoint.py
+
+# Cleanup
+_cleanup.py
+
+# Third party licenses
+THIRD_PARTY_LICENSES.md
