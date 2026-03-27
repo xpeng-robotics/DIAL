@@ -247,26 +247,6 @@ Results (action MSE, bridge loss, trajectory plots, and PCA visualizations) are 
 
 > **Note:** The dataset paths in `examples/eval_loss.sh` point to augmented GR1 data (with EEF poses). Update them to match your local data directory if needed.
 
-## Checkpoint Conversion
-
-If you have checkpoints trained with the original codebase (using `eagle_model`/`eagle_path` naming), convert them before loading:
-
-```bash
-python scripts/convert_checkpoint.py \
-    --input_dir /path/to/old/checkpoint \
-    --output_dir /path/to/converted/checkpoint
-```
-
-This remaps state_dict keys (`backbone.eagle_model.*` -> `backbone.vlm_model.*`), config fields (`eagle_path` -> `vlm_path`), and model registration (`model_type`, `architectures`).
-
-> **Note:** The Python package is named `gr00t` internally for compatibility with the HuggingFace model registration system. Config JSONs use `"model_type": "gr00t_n1_5_dial"` and `"architectures": ["GR00T_N1_5_DIAL"]`.
-
-To load a converted checkpoint:
-
-```python
-from transformers import AutoModel
-model = AutoModel.from_pretrained("/path/to/checkpoint", trust_remote_code=True)
-```
 
 <!-- ## Citation
 
