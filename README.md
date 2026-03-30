@@ -257,7 +257,7 @@ If you find this work useful, please cite:
 
 ## Acknowledgements
 
-This codebase is built on top of [NVIDIA Isaac GR00T N1.5](https://github.com/NVIDIA/Isaac-GR00T/tree/n1.5-release), an open foundation model for generalized humanoid robot reasoning and skills. We thank NVIDIA for open-sourcing the GR00T N1.5 model, data pipeline, and training infrastructure, which served as the foundation for our work. We also thank the authors of [EgoDex](https://github.com/apple/ml-egodex), [RoboCasa](https://github.com/robocasa/robocasa-gr1-tabletop-tasks), and [LeRobot](https://github.com/huggingface/lerobot) for their open-source contributions.
+This codebase is built on top of [NVIDIA Isaac GR00T N1.5](https://github.com/NVIDIA/Isaac-GR00T/tree/n1.5-release), an open foundation model for generalized humanoid robot policies. We thank NVIDIA for open-sourcing the GR00T N1.5 model, data pipeline, and training infrastructure, which served as the foundation for our work. We also thank the authors of [EgoDex](https://github.com/apple/ml-egodex), [RoboCasa](https://github.com/robocasa/robocasa-gr1-tabletop-tasks), and [LeRobot](https://github.com/huggingface/lerobot) for their open-source contributions.
 
 ## License
 
