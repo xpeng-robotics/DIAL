@@ -31,8 +31,7 @@ Furthermore, by leveraging heterogeneous human demonstrations, DIAL learns physi
 - [Evaluation](#evaluation)
   - [Online Evaluation](#online-evaluation)
   - [Offline Evaluation](#offline-evaluation-action--goal-loss)
-- [Checkpoint Conversion](#checkpoint-conversion)
-- [Citation](#citation)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Installation
