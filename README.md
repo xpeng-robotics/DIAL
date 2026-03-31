@@ -29,7 +29,8 @@ Furthermore, by leveraging heterogeneous human demonstrations, DIAL learns physi
   - [EgoDex Human Data](#egodex-human-data)
 - [Training](#training)
 - [Evaluation](#evaluation)
-  - [Offline Evaluation (Action & Goal Loss)](#offline-evaluation-action--goal-loss)
+  - [Online Evaluation](#online-evaluation)
+  - [Offline Evaluation](#offline-evaluation-action--goal-loss)
 - [Checkpoint Conversion](#checkpoint-conversion)
 - [Citation](#citation)
 - [License](#license)
@@ -190,6 +191,8 @@ Train without human data:
 See [`examples/example_commands.sh`](examples/example_commands.sh) for the exact dataset paths, data configs, embodiment tags, and data splits used in our experiments.
 
 ## Evaluation
+
+### Online Evaluation
 
 Evaluate trained models in the RoboCasa GR1 simulation environment:
 
