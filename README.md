@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="https://chenyi99.github.io/dial/"><b>Project Page</b></a> &nbsp;|&nbsp;
-  <a href=""><b>Paper</b></a> &nbsp;|&nbsp;
-  <a href=""><b>Model Weights</b></a>
+  <a href="https://chenyi99.github.io/dial/DIAL.pdf"><b>Paper</b></a> &nbsp;|&nbsp;
+  <a href="https://huggingface.co/xpeng-robotics/DIAL_checkpoints"><b>Model Weights</b></a>
 </p>
 
 <p align="center">
