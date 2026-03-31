@@ -1,8 +1,8 @@
 # DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
 
 <p align="center">
-  <a href="https://chenyi99.github.io/dial/"><b>Project Page</b></a> &nbsp;|&nbsp;
-  <a href="https://chenyi99.github.io/dial/DIAL.pdf"><b>Paper</b></a> &nbsp;|&nbsp;
+  <a href="https://xpeng-robotics.github.io/dial/"><b>Project Page</b></a> &nbsp;|&nbsp;
+  <a href="https://xpeng-robotics.github.io/dial/DIAL.pdf"><b>Paper</b></a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/xpeng-robotics/DIAL_checkpoints"><b>Model Weights</b></a>
 </p>
 
