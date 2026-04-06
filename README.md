@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://xpeng-robotics.github.io/dial/"><b>Project Page</b></a> &nbsp;|&nbsp;
-  <a href="https://xpeng-robotics.github.io/dial/DIAL.pdf"><b>Paper</b></a> &nbsp;|&nbsp;
+  <a href="https://arxiv.org/pdf/2603.29844"><b>Paper</b></a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/xpeng-robotics/DIAL_checkpoints"><b>Model Weights</b></a>
 </p>
 
@@ -31,6 +31,7 @@ Furthermore, by leveraging heterogeneous human demonstrations, DIAL learns physi
 - [Evaluation](#evaluation)
   - [Online Evaluation](#online-evaluation)
   - [Offline Evaluation](#offline-evaluation-action--goal-loss)
+- [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
@@ -250,12 +251,18 @@ Results (action MSE, bridge loss, trajectory plots, and PCA visualizations) are 
 > **Note:** The dataset paths in `examples/eval_loss.sh` point to augmented GR1 data (with EEF poses). Update them to match your local data directory if needed.
 
 
-<!-- ## Citation
+## Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
-``` -->
+@article{chen2026dial,
+  title={DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA},
+  author={Chen, Yi and Ge, Yuying and Zhou, Hui and Ding, Mingyu and Ge, Yixiao and Liu, Xihui},
+  journal={arXiv preprint arXiv:2603.29844},
+  year={2026}
+}
+```
 
 ## Acknowledgements
 
