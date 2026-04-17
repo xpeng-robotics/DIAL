@@ -41,7 +41,7 @@ tensorboard/
 MUJOCO_LOG.TXT
 
 # Data (too large for git)
-data/
+# data/
 datasets/
 
 # Jupyter
